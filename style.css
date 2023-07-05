@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(39, 1, 95);
+}
+/* .navbar{
+    background-color: rgba(0, 0, 0, 0.532);
+    margin: 0px;
+    padding: 10px;
+}
+.navbar ul{
+    overflow: auto;
+    margin: 0px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.navbar li a:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    border-radius: 30px;
+} */
+.container{
+    text-align: center;
+}
+.container input{
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 600px;
+    height: 30px;
+    padding: 4px;
+}
+.container button{
+    padding: 7px 20px;
+    font-size: 1.1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+}
+.container button:hover{
+    padding: 9px 22px;
+    font-size: 1.14 ;
+    cursor: pointer;
+}
+ .container #todobtn{
+    position: fixed;
+    right: 300px;
+}
+li #btn1{
+    margin-left: 260px;
+    padding: 7px 20px;
+    font-size: 15px;
+    background-color: yellow;
+    border-radius: 30px;
+}
+li #btn1:hover{
+    padding: 9px 22px;
+    font-size: 1.04 ;
+    cursor: pointer;
+}
+li #btn2{
+    margin: 5px;
+    padding: 7px 20px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+li #btn2:hover{
+    padding: 9px 22px;
+    font-size: 1.04 ;
+    cursor: pointer;
+}  
+
+.chapter {
+    /* padding: 7px; */
+    /* margin-right: 80px; */
+    font-size: 20px;
+    color: white;
+}
+.chapter #todo{
+    position: fixed;
+    left: 300px;
+}
+
+
+#listitem{
+    text-align: center;
+    margin: 20px;
+    list-style: none;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+
+}
+.emptymsg{
+    font-size: 1.8rem;
+    position: fixed;
+    left: 310px;
+}
